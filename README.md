@@ -10,4 +10,5 @@
 - [webpack](https://webpack.github.io/docs/)
 
 ##Development Workflow
+    npm install
     build
