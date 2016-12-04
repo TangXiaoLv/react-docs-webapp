@@ -1,5 +1,5 @@
 # react-guide
-    A api handbook implementation by react.
+    A api docs implementation by react.
 ##Library
 - [Redux](https://github.com/reactjs/redux)
 - [react-redux](https://github.com/reactjs/react-redux)
