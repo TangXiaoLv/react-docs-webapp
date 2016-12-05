@@ -26,7 +26,7 @@ function deleteItem({key}) {
         ref.child(`${key}`)
             .remove((err) => {
                 if (err) {
-                    mySnackbar.openSnackBar("删除失败", true, false)
+                    mySnackbar.openSnackBar("delete fail", true, false)
                 }
             });
     }

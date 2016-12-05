@@ -1,5 +1,7 @@
 # react-guide
     A api docs implementation by react.
+<img src="guide.gif" height= "628" width="100%">
+
 ##Library
 - [Redux](https://github.com/reactjs/redux)
 - [react-redux](https://github.com/reactjs/react-redux)

@@ -9,10 +9,10 @@ function submit(item) {
     return (dispatch, getState) => {
         ref.push(item)
             .then(() => {
-                dispatch(Snackbar.openSnackBar('提交成功', true, true));
+                dispatch(Snackbar.openSnackBar('Submit Success', true, true));
             })
             .catch((err) => {
-                dispatch(Snackbar.openSnackBar('提交失败', true, false));
+                dispatch(Snackbar.openSnackBar('Submit Fail', true, false));
             });
     }
 }
@@ -21,10 +21,10 @@ function update(key,item) {
     return (dispatch, getState) => {
         ref.child(key).update(item)
             .then(() => {
-                dispatch(Snackbar.openSnackBar('更新成功', true, true));
+                dispatch(Snackbar.openSnackBar('Update Success', true, true));
             })
             .catch((err) => {
-                dispatch(Snackbar.openSnackBar('更新失败', true, false));
+                dispatch(Snackbar.openSnackBar('Update Fail', true, false));
             });
     }
 }
