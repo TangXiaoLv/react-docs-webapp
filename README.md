@@ -1,5 +1,5 @@
 # react-guide
-    A api docs implementation by react.
+    A webapp named docs implementation by Material Design and React
 <img src="guide.gif" height= "628" width="100%">
 
 ##Library
