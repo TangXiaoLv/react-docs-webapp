@@ -2,7 +2,7 @@
     A webapp named docs implementation by Material Design and React
 <img src="guide.gif" height= "628" width="100%">
 
-##Library
+## Library
 - [Redux](https://github.com/reactjs/redux)
 - [react-redux](https://github.com/reactjs/react-redux)
 - [react-thunk](https://github.com/gaearon/redux-thunk)
@@ -11,6 +11,6 @@
 - [material-ui](http://www.material-ui.com/#/)
 - [webpack](https://webpack.github.io/docs/)
 
-##Development Workflow
+## Development Workflow
     npm install
     build
